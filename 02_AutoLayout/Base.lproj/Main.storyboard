@@ -22,8 +22,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TFp-S1-d6T">
-                                <rect key="frame" x="140.5" y="318" width="94" height="30"/>
+                                <rect key="frame" x="126" y="318" width="122" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="122" id="M9g-TY-WYY"/>
+                                </constraints>
                                 <state key="normal" title="Check Layout">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -34,8 +37,8 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="TFp-S1-d6T" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="BLk-Bd-j0M"/>
-                            <constraint firstItem="TFp-S1-d6T" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YHc-g6-siC"/>
+                            <constraint firstItem="TFp-S1-d6T" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CTh-Nu-X1V"/>
+                            <constraint firstItem="TFp-S1-d6T" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rXD-TV-5VF"/>
                         </constraints>
                     </view>
                 </viewController>
